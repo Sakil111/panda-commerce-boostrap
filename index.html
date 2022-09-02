@@ -11,7 +11,7 @@
 </head>
 <body>
   <header >
-    <nav class="navbar navbar-expand-lg bg-light ">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top ">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="">
@@ -25,13 +25,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Shoes</a>
+              <a class="nav-link active" aria-current="page" href="#shoes">Shoes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Backpack</a>
+              <a class="nav-link active" aria-current="page" href="#backpack">Backpack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Subscribed</a>
+              <a class="nav-link active" aria-current="page" href="#subscribe">Subscribed</a>
             </li>
           </ul>
         </div>
@@ -128,7 +128,7 @@
 
     <!-- shoe section  -->
     <section>
-      <div class="container">
+      <div class="container" id="shoes">
         <h1>Shoes</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col ">
@@ -180,7 +180,7 @@
 
      <!-- bag section  -->
      <section>
-      <div class="container my-5">
+      <div class="container my-5" id="backpack">
         <h1>Bags</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -229,7 +229,7 @@
         </div>
       </div>
     </section>
-    <section style="height: 300px;" class="container bg-primary rounded-4 d-flex justify-content-center align-items-center">
+    <section style="height: 300px;" class="container bg-primary rounded-4 d-flex justify-content-center align-items-center" id="subscribe">
       <div>
         <h1>LET'S STAY IN TOUCH</h1>
         <p>Get updates on sales, specials and more</p>
